@@ -121,7 +121,7 @@ schreiben“ (Link dafür: Unternehmensprofil → „Rezensionen erhalten“, in
 ## Veröffentlichen (Netlify)
 
 1. app.netlify.com → *Add new site → Import from Git* → dieses Repo.
-   **Base directory:** `tabano-website`, **Publish directory:** `tabano-website/public`, Build command leer.
+   **Base directory:** leer, **Publish directory:** `public`, Build command leer (steht auch in `netlify.toml`).
 2. *Domain management*: `tabano-stuttgart.de` und `www.tabano-stuttgart.de` hinzufügen, DNS beim
    Domain-Anbieter umstellen, *HTTPS → Force HTTPS*. `netlify.toml` leitet `http://` und `www.` um und setzt
    HSTS und die Sicherheits-Header (Content-Security-Policy u. a.).
